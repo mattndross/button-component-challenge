@@ -2,8 +2,6 @@ import React from 'react'
 
 export default function Button(props) {
     return (
-        <div>
-            <button className="props.variant" >Default</button>
-        </div>
+            <button className={`button button__${props.variant}`} >Default</button>        
     )
 }

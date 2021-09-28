@@ -1,4 +1,15 @@
-.outline {
-    border: black 1px;
-    padding: 20px;
+.button {
+    border-radius: 8px;
+    padding: 8px 15px;
+    box-shadow: 5px black;
+    border: none;
+
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button__outline {
+    border: black 1px solid;
 }
