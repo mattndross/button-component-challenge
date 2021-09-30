@@ -4,13 +4,26 @@
 }
 
 .sidebar {
-    height: 100vh ;
+    height: 100% ;
     width: 30%;
     background-color: azure;
 }
 
 .main {
-    height: 100vh;
+    height: 100%;
     width: 70%;
     background-color: cadetblue;
 }
+
+.flex {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

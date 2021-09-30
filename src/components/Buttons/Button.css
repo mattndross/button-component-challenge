@@ -1,0 +1,70 @@
+.button {
+    border-radius: 8px;
+    padding: 8px 15px;
+    box-shadow: 1px 2px;
+    border: none;
+    font-size: medium;
+    
+    
+}
+.button:hover, .button:focus {
+    background-color: gray ;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button__on-hover {
+    background-color: gray ;
+}
+
+.button__outline {
+    border: black 1px solid;
+}
+
+.button__text {
+    background: none;
+    box-shadow: none;
+}
+
+.button__disabled-shadow {
+    box-shadow: none;
+}
+
+.button__sm {
+    border-radius: 6px;
+    padding: 6px 12px;
+    box-shadow: 0.5px 1.5px;
+    border: none;
+    font-size: small;
+}
+
+.button__lg {
+    border-radius: 9px;
+    padding: 10px 17px;
+    box-shadow: 1.5px 2.5px;
+    border: none;
+    font-size: large;
+}
+
+.button__primary {
+    background-color: #0028BF;
+}
+.button__primary:hover, .button__primary:focus {
+    background-color: #2300bf;
+} 
+
+.button__secondary {
+    background-color: #007840;
+}
+.button__secondary:hover, .button__secondary:focus {
+    background-color: #00781e;
+}
+
+.button__danger {
+    background-color: #ff1e00;
+}
+.button__danger:hover, .button__danger:focus {
+    background-color: #ff0000ee;
+}
